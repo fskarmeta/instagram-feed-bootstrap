@@ -1,0 +1,41 @@
+body * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: unset;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.fa-th,
+.fa-dice-one {
+    color: gray;
+    background-color: white;
+    border: 1px thin grey;
+    cursor: pointer;
+}
+
+.fa-th:hover {
+    color: white;
+    background-color: grey;
+}
+
+.fa-dice-one:hover {
+    color: white;
+    background-color: grey;
+}
+
+.col-md-4 img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 500px;
+}
